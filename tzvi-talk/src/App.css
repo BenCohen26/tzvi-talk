@@ -2,12 +2,18 @@
   background-color: #f6fafb;
 }
 
+.logo {
+  width: 10vw;
+  display: block;
+  margin: 0 auto;
+}
+
 .main-title {
   text-align: center;
   font-size: 42px;
   font-family: sans-serif;
   font-weight: 600;
-  margin-bottom: 24px;
+  margin: 18px;
 }
 
 .sub-title {
