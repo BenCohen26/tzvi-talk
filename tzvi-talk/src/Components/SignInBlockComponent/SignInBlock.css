@@ -1,3 +1,44 @@
 .sign-in-block {
   background-color: white;
+  width: 25vw;
+  margin: auto;
+
+  font-family: sans-serif;
+  border-radius: 8px;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #3BD788;
+  transition: 0.4s;
+  outline: none;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background: #4CAF50;
 }

@@ -2,7 +2,6 @@ import React from 'react';
 import './SignInBlock.css';
 
 class SignInBlock extends React.Component {
-
   constructor() {
     super();
     this.state = {
@@ -11,24 +10,36 @@ class SignInBlock extends React.Component {
     };
   }
 
-  handleSubmit = (event) => {
+  handleSubmit = event => {
     event.preventDefault();
     console.log(this.state);
-  }
+  };
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit} className="sign-in-block">
-        <label>
-          Username
-          <input type="text" onChange={(event) => this.setState({ username: event.target.value })}/>
-        </label>
-        <label>
-          Password
-          <input type="text" onChange={(event) => this.setState({ password: event.target.value })}/>
-        </label>
-        <input type="submit" value="Sign In" />
-      </form>
+      <div className="sign-in-block">
+        <form onSubmit={this.handleSubmit} className="sign-in-form">
+          <label>
+            Username
+            <input
+              type="text"
+              onChange={event =>
+                this.setState({ username: event.target.value })
+              }
+            />
+          </label>
+          <label>
+            Password
+            <input
+              type="text"
+              onChange={event =>
+                this.setState({ password: event.target.value })
+              }
+            />
+          </label>
+          <input type="submit" value="Sign In" />
+        </form>
+      </div>
     );
   }
 }

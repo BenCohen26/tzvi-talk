@@ -1,11 +1,7 @@
-* {
-  background-color: #f6fafb;
-}
-
 .logo {
   width: 10vw;
   display: block;
-  margin: 0 auto;
+  margin: 1% auto;
 }
 
 .main-title {
