@@ -1,0 +1,19 @@
+* {
+  background-color: #f6fafb;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 42px;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: darkgray;
+}
