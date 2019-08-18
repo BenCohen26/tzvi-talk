@@ -10,6 +10,7 @@
   font-family: sans-serif;
   font-weight: 600;
   margin: 18px;
+  cursor: default;
 }
 
 .sub-title {
@@ -18,4 +19,5 @@
   font-family: sans-serif;
   font-weight: 600;
   color: darkgray;
+  cursor: default;
 }
