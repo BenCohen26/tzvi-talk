@@ -31,7 +31,7 @@ class SignInBlock extends React.Component {
           <label>
             Password
             <input
-              type="text"
+              type="password"
               onChange={event =>
                 this.setState({ password: event.target.value })
               }
