@@ -7,7 +7,6 @@
 .main-title {
   text-align: center;
   font-size: 42px;
-  font-family: sans-serif;
   font-weight: 600;
   margin: 18px;
   cursor: default;
@@ -16,8 +15,15 @@
 .sub-title {
   text-align: center;
   font-size: 22px;
-  font-family: sans-serif;
   font-weight: 600;
   color: darkgray;
   cursor: default;
+}
+
+.register {
+  text-align: center;
+  color: #34B2F3;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
 }

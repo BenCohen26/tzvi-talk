@@ -8,9 +8,10 @@ function App() {
   return (
     <div className="App">
       <img src={logo} alt="logo" className="logo" />
-      <p className="main-title">Welcome To Tzvi Talk!</p>
-      <p className="sub-title">Sign In To Continue.</p>
+      <p className="main-title">Welcome to Tzvi Talk!</p>
+      <p className="sub-title">Sign in to continue.</p>
       <SignInBlock />
+      <p className="register">Create a new account</p>
     </div>
   );
 }
