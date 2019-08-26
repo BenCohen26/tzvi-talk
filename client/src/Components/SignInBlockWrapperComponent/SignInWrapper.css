@@ -1,0 +1,13 @@
+.sign-in-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register {
+  color: #34B2F3;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-block;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
-import SignInBlock from './Components/SignInBlockComponent/SignInBlock';
+
+import SignInWrapper from './Components/SignInBlockWrapperComponent/SignInWrapper';
 
 import logo from './logo.png';
 import './App.css';
@@ -9,9 +10,7 @@ function App() {
     <div className="App">
       <img src={logo} alt="logo" className="logo" />
       <p className="main-title">Welcome to Tzvi Talk!</p>
-      <p className="sub-title">Sign in to continue.</p>
-      <SignInBlock />
-      <p className="register">Create a new account</p>
+      <SignInWrapper />
     </div>
   );
 }
